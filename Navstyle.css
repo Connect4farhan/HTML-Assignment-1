@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.backimg{
+    width: 12dvh;
+}
+.navebar {
+    position: fixed;
+    background-color: black;
+    border-radius: 20px;
+    margin: -8px -5px;
+    width: 1000px;
+    height: 70px;
+}
+
+.navebar ul {
+    overflow: auto;
+}
+
+.navebar li {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    float: left;
+    list-style: none;
+    padding: 10px;
+    
+}
+
+.navebar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navebar li a:hover {
+    color: red;
+}
+
+.search {
+    float: right;
+    margin: 5px 8px;
+}
+
+.navebar ul input {
+    border-radius: 14px;
+    width: 136px;
+    text-align: center;
+}
+
+.icon-search {
+    color: white;
+    margin: 7px -4px;
+    font-size: 20px;
+}
+
+.icon-search:hover {
+    color: red;
+}
